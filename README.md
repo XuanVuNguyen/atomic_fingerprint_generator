@@ -34,4 +34,5 @@ By default, the outputs are saved in `extracted_fingerprint`. The outputs includ
 * `atom_fp.npy`: contains the atomic fingerprints.
 * `distance.npy`: contains the shortest relative distance matrices between nodes of the molecular graphs.
 * `smiles.txt`: contains the SMILES strings of the molecules.
+
 In order to read the `.npy` files, please refer to: [this part in the `numpy.save` documentation](https://numpy.org/doc/stable/reference/generated/numpy.save.html#:~:text=with%20open(%27test.npy%27%2C%20%27wb%27)%20as%20f%3A%0A...%20%20%20%20%20np.save(f%2C%20np.array(%5B1%2C%202%5D))%0A...%20%20%20%20%20np.save(f%2C%20np.array(%5B1%2C%203%5D))%0A%3E%3E%3E%20with%20open(%27test.npy%27%2C%20%27rb%27)%20as%20f%3A%0A...%20%20%20%20%20a%20%3D%20np.load(f)%0A...%20%20%20%20%20b%20%3D%20np.load(f)%0A%3E%3E%3E%20print(a%2C%20b)%0A%23%20%5B1%202%5D%20%5B1%203%5D)
