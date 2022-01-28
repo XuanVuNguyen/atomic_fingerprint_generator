@@ -1,0 +1,9 @@
+models_pretrained/*
+!models_pretrained/README.md
+
+extracted_fingerprint/*
+!extracted_fingerprint/README.md
+
+**/*.ipynb
+**/.ipynb_checkpoints/
+**/__pycache__/
